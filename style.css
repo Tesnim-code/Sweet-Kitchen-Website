@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background: #fff8f2;
+      color: #5a3e36;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+h1 {
+    text-shadow:0 0 2px black;
+}
+.center {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+.heading {
+    background-image: url(./images/background.jpeg);
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+}
+.images {
+    display: flex;
+    /* border: 5px dotted #5a3e36; */
+    border-radius: 150px;
+    justify-content: space-around;  
+    padding: 20px; 
+    
+}
+img {
+     border: none;
+     border-radius: 150px;
+     flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 550px;
+    box-shadow: 5px 0 10px black;
+    /* justify-content: center; */
+    padding: 20px;
+    border: 2px solid #5a3e36;
+    border-radius: 100px;
+    align-items: center;
+    background-color: rgba(183, 132, 88, 0.333);
+    margin: 30px;
+}
+.recipe-img {
+    /* border: 2px solid #5a3e36; */
+    border-radius: 50%;
+    border-bottom: 3px solid #5a3e36;
+    border-left: 3px solid #5a3e36;
+}
+.recipe-btn {
+    background-color: #5a3e36;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    color: #fff8f2;
+    padding: 10px 18px 10px 18px;
+}
+.recipe-btn:hover {
+    background-color:#997b66;
+    color: #fff8f2;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.nav-bar-btn {
+    background-color: #5a3e36;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    color: #fff8f2;
+    padding: 10px 18px 10px 18px;
+}
+.nav-bar-btn:hover {
+    background-color: #997b66;
+    color: #fff8f2;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.recipe-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

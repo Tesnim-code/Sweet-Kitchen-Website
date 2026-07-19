@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Sweet Kitchen|Homemade Recipes</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<script src="index.js"></script>
+<body>
+    <div class="heading">
+ <h1 style="color: #fff8f2;">Welcome To Tesnim's Sweet kitchen</h1>
+ <br>
+ <div class="nav-bar ">
+   
+   <a href="#home" >
+    <button class="nav-bar-btn">Home</button>
+   </a>
+   <a href="#recipes" >
+    <button class="nav-bar-btn">Recipes</button>
+   </a>
+   <a href="#categories" >
+    <button class="nav-bar-btn">Categories</button>
+   </a>
+   <a href="#contact" >
+    <button class="nav-bar-btn">Contact</button>
+   </a>
+</div>
+    </div>
+<section id="home">
+    <br><br>
+<h2 style="text-align: center; font-size: 40px;"> Sweet Kitchen</h2>
+<div class="center">
+<p>
+    Welcome to Sweet Kitchen! I'm Tesnim,and I created this recipe 
+    collection and feel free discover delicious homemade 
+    recipes for cakes,cupcakes,pancakes,buns and more! 
+ </p>
+ <p> 
+    Every recipe is carefully tested by me to provide trusted
+    no fail results,simple steps, and sweet moments for our family.
+ </p>
+</div>
+ <div class="images">
+ <img src="./images/pancake.jpeg" width="300px" height="300px" >
+  
+   <img src="./images/baklava.jpg" width="250px" height="300px">
+   <img src="./images/panc.jpg" width="250px" height="300px">
+    <img src="./images/waffle.jpg" width="250px" >
+   
+</div>  
+</section>
+<section id="recipes">
+<h2 style="text-align: center; font-size: 40px;">Recipes</h2>
+<div class="recipe-cards">
+<div class="card">
+    <span class="recipe-img">
+<img src="./images/chocolate bundt.jpg" width="100px"  alt="Chocolate Bundt Cake">
+    </span>
+<h3>Chocolate Bundt Cake</h3>
+<dl>
+    <dt>Description:</dt>
+    <dd>A moist and delicious chocolate cake baked in a classic bundt pan, with a rich cocoa flavor and a soft, tender texture. This simple yet 
+        elegant dessert is perfect for family gatherings, celebrations, or 
+        enjoying with a cup of coffee.</dd>
+        <dt>Cooking Time:</dt>
+        <dd>40 - 60 minutes</dd>
+        <dt>Difficulty:</dt>
+        <dd>Medium</dd>
+</dl>
+<button class="recipe-btn" id="chocolate-bundt-btn" onclick="viewRecipe('chocolate bundt.html')">View Recipe</button>
+  </div>
+<div class="card">
+    <span class="recipe-img">
+<img src="./images/pancake.jpeg" width="100px"  alt="Pancakes">
+    </span>
+<h3>Pancakes</h3>
+<dl>
+    <dt>Description:</dt>
+    <dd>Fluffy and golden pancakes that are easy to make and perfect for breakfast or brunch. These pancakes are light, airy, and can be served with a variety of toppings such as syrup, fresh fruit, or whipped cream.</dd>
+        <dt>Cooking Time:</dt>
+        <dd>20 - 30 minutes</dd>
+        <dt>Difficulty:</dt>
+        <dd>Easy</dd>
+</dl>
+<button class="recipe-btn" id="pancakes-btn" onclick="viewRecipe('pancakes.html')">View Recipe</button>
+ </div>
+ <div class="card">
+    <span class="recipe-img">
+        <img src="./images/waffle.jpg" width="100px" alt="waffle">
+    </span>
+    <h3>Waffles</h3>
+    <dl>
+        <!-- here -->
+        <dt>Description:</dt>
+        <dd>Crispy on the outside and soft on the inside, these homemade waffles are quick and easy to make. Perfect for breakfast or brunch, they pair well with fruits, syrup, or your favorite toppings.</dd>
+        <dt>Cooking Time:</dt>
+        <dd>40 - 60 minutes</dd>
+        <dt>Difficulty:</dt>
+        <dd>Medium</dd>
+    </dl>
+    <button class="recipe-btn" id="waffles-btn" onclick="viewRecipe('waffles.html')">View Recipe</button>
+</div>
+</div>
+</section>
+</body>
+</html>
